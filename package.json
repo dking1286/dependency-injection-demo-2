@@ -1,0 +1,29 @@
+{
+  "name": "dependency-injection-demo-2",
+  "version": "1.0.0",
+  "description": "A more realistic dependency injection demo",
+  "main": "article-controller.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape helpers.js article-controller.spec.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dking1286/dependency-injection-demo-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dking1286/dependency-injection-demo-2/issues"
+  },
+  "homepage": "https://github.com/dking1286/dependency-injection-demo-2#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "faucet": "0.0.1",
+    "sinon": "^1.17.6",
+    "tape": "^4.6.3"
+  }
+}
